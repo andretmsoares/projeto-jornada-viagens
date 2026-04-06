@@ -1,0 +1,14 @@
+
+.destinations .section-title h2 {
+    padding-top: 88px;
+    margin: 0 90px;
+    font-size: 32px;
+}
+
+.destinations .item header {
+  display: block;
+  position: static;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 24px;
+}
