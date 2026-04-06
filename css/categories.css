@@ -16,6 +16,7 @@
   border-radius: 8px;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 
 .categories .section-title h2 {
@@ -32,6 +33,14 @@
   font-size: 28px;
   font-weight: bold;
   margin-top: 24px;
+}
+
+.categories-cards  .card.single-line h3  {
+  margin-top: 50px;
+}
+
+.categories-cards  .card.single-line.transfer h3  {
+  margin-top: 70px;
 }
 
 @media screen and (min-width: 768px) {
