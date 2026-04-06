@@ -51,7 +51,7 @@ body {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
-  text-align: center ;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,5 +69,11 @@ body {
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--button-primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-title hr {
+    margin-bottom: 64px;
   }
 }

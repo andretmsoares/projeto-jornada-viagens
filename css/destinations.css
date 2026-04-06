@@ -91,7 +91,6 @@
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    padding-top: 32px;
   }
 
   .destinations .item .img-item {
