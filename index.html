@@ -3,34 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Jornada Viagens</title>
   </head>
   <body>
-    <header>
-      <a class="logo" href="#index.html" title="Voltar para a página inicial">
+    <header class="main-header">
+      <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
           class="img-mobile"
-          src="img/Logo-provisória-branca 1.png"
-          alt="Bussola do logo Jornada viagens na cor branca"
+          src="img/bussola-jornada-branco.png"
+          alt="Bussola do logo Jornada Viagens na cor branca"
         />
         <img
           class="img-desktop"
-          src="img/bussola-texto-jornada-branca.png"
-          alt="Bussola do logo Jornada viagens na cor branca"
+          src="img/bussola-texto-jornada-branco.png"
+          alt="Logo Jornada Viagens na cor branca"
         />
       </a>
       <div class="navigation-menu">
         <label for="menu">
           <img src="img/menu.png" alt="menu" />
         </label>
-        <input type="checkbox" name="" id="menu" hidden />
+        <input type="checkbox" id="menu" hidden />
         <nav>
           <ul class="list-links">
             <li>
@@ -40,7 +34,7 @@
               <a
                 href="pacotes.html"
                 target="_blank"
-                title="Acessar Pacotes de Viagens"
+                title="Acessar Pacotes de viagem"
                 >Pacotes de viagem</a
               >
             </li>
@@ -72,23 +66,21 @@
             <p>HOTEL+AÉREO</p>
             <h3>
               Japão <br />
-              <span> R$ 4000 </span>
+              <span>R$ 4000</span>
             </h3>
           </header>
-          <section></section>
           <footer>
             <a href="#" class="button">Ver detalhes</a>
           </footer>
         </article>
-        <article class="card sanAndreas">
+        <article class="card san-andreas">
           <header>
             <p>HOTEL+AÉREO</p>
             <h3>
-              San Andreas<br />
-              <span> R$ 3000 </span>
+              San Andreas <br />
+              <span>R$ 3000</span>
             </h3>
           </header>
-          <section></section>
           <footer>
             <a href="#" class="button">Ver detalhes</a>
           </footer>
@@ -98,10 +90,9 @@
             <p>HOTEL+AÉREO</p>
             <h3>
               Paraíba <br />
-              <span> R$ 1200 </span>
+              <span>R$ 1200</span>
             </h3>
           </header>
-          <section></section>
           <footer>
             <a href="#" class="button">Ver detalhes</a>
           </footer>
@@ -111,49 +102,87 @@
             <p>HOTEL+AÉREO</p>
             <h3>
               Manaus <br />
-              <span> R$ 1600 </span>
+              <span>R$ 1600</span>
             </h3>
           </header>
-          <section></section>
           <footer>
             <a href="#" class="button">Ver detalhes</a>
           </footer>
         </article>
       </div>
     </section>
-    <sections class="categories">
+    <section class="categories">
       <div class="section-title">
         <h2>Busque por Categoria</h2>
         <hr />
       </div>
       <div class="categories-cards">
-        <a href="#" class="card">
-          <img src="img/ícone - pacotes nacionais.png" alt="" />
-          <h3>Pacotes Nacionais</h3>
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Nacionais"
+        >
+          <img
+            src="img/icone-caminhada.png"
+            alt="ícone cinza representando uma pessoa fazendo tracking"
+          />
+          <h3>
+            Pacotes<br />
+            Nacionais
+          </h3>
         </a>
-        <a href="#" class="card">
-          <img src="img/ícone - pacotes interacionais.png" alt="" />
-          <h3>Pacotes Internacionais</h3>
+
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Internacionais"
+        >
+          <img
+            src="img/icone-aviao.png"
+            alt="ícone cinza representando um avião"
+          />
+          <h3>
+            Pacotes <br />
+            Internacionais
+          </h3>
         </a>
-        <a href="#" class="card single-line transfer">
-          <img src="img/ícone -transfer.png" alt="" />
+        <a
+          class="card single-line transfer"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Transfer"
+        >
+          <img
+            src="img/icone-onibus.png"
+            alt="ícone cinza representando um ônibus"
+          />
           <h3>Transfer</h3>
         </a>
-        <a href="#" class="card single-line">
-          <img src="img/ícone - seguro viagem.png" alt="" />
+        <a
+          class="card single-line"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Seguro Viagem"
+        >
+          <img
+            src="img/icone-planeta.png"
+            alt="ícone cinza representando o planeta terra com um cadeado"
+          />
           <h3>Seguro Viagem</h3>
         </a>
       </div>
-    </sections>
+    </section>
     <section class="destinations">
       <div class="section-title">
         <h2>Destinos Populares</h2>
         <hr />
       </div>
-      <div class="destinations-items">
-        <article class="item">
+      <div class="destination-items">
+        <article class="item tokyo">
           <header>
-            <div class="img-item tokyo"></div>
+            <div class="img-item"></div>
             <h4>Tokyo</h4>
           </header>
           <p>
@@ -162,12 +191,18 @@
             perca a chance de mergulhar em sua atmosfera fascinante.
           </p>
           <footer>
-            <a href="" class="button tokyo">Ver Detalhes</a>
+            <a
+              href="#"
+              class="button"
+              target="_blank"
+              title="Veja mais detalhes do destino Tokyo"
+              >Ver detalhes</a
+            >
           </footer>
         </article>
-        <article class="item">
+        <article class="item osaka">
           <header>
-            <div class="img-item osaka"></div>
+            <div class="img-item"></div>
             <h4>Osaka</h4>
           </header>
           <p>
@@ -176,7 +211,13 @@
             partida para explorar outras cidades japonesas próximas.
           </p>
           <footer>
-            <a href="" class="button">Ver Detalhes</a>
+            <a
+              href="#"
+              class="button"
+              target="_blank"
+              title="Veja mais detalhes do destino Osaka"
+              >Ver detalhes</a
+            >
           </footer>
         </article>
       </div>
