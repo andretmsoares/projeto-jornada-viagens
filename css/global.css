@@ -49,7 +49,7 @@ section {
 }
 
 section.hero,
-section.rodape {
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
