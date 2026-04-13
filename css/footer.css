@@ -6,32 +6,70 @@
   padding: 32px 24px;
 }
 
-.main-footer .logo-footer {
-    height: 40px;
-    width: 162px;
-    margin: 0 auto;
-    padding-bottom: 16px;
+.main-footer .content-footer,
+.main-footer .redes {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  color: var(--background-secondary-color);
+  text-align: center;
+  padding-bottom: 16px;
 }
 
-.main-footer .content-footer {
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: var(--text-weight);
-    color: var(--background-secondary-color);
-    text-align: center;
-    margin: 0 40px;
+.main-footer .content-footer .logo-footer {
+  height: 40px;
+  width: 162px;
+  margin: 0 auto;
+  padding-bottom: 16px;
 }
 
-.main-footer .content-footer .redes {
-    padding-top: 32px;
+.main-footer .redes {
+  padding-bottom: 32px;
 }
 
-.main-footer .content-footer .redes .logos-redes-sociais {
-    padding-top: 16px;
-    display: flex;
+.main-footer .redes .logos-redes-sociais {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-footer {
+    padding: 32px 60px;
+    height: 230px;
+  }
+  .main-footer .content-footer .text-footer {
+    text-align: start;
+    margin-left: 88px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-footer .content-footer .text-footer {
+    margin-left: 170px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-footer {
     flex-direction: row;
-    gap: 8px;
-    justify-content: center;
+   
+  }
+
+  .main-footer .content-footer {
+    margin: 52px 120px 52px 0px;
+  }
+
+  .main-footer .content-footer .logo-footer,
+  .main-footer .content-footer .text-footer {
+    margin-left: 60px;
+  }
+
+  .main-footer .redes {
+    margin: 78px 0px 78px auto;
+  }
 }
-
-
