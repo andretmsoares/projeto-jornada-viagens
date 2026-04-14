@@ -53,7 +53,7 @@ nav {
 }
 
 .pacotes .main-header .navigation-menu .list-links .menu-pacotes {
-  color: var(--text-secondary-color);
+  color: var(--text-secondary-color); 
   text-decoration: underline;
 }
 

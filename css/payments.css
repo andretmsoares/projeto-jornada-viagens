@@ -44,6 +44,49 @@
   grid-column: span 2;
 }
 
+.pacotes .payments .grid-layout {
+  height: 820px;
+}
+
+.pacotes .payments .grid-layout .text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.pacotes .payments .grid-layout .text-content .content-text {
+  margin-bottom: 24px;
+}
+.pacotes .payments .grid-layout .text-content .content-title {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.pacotes .payments .grid-layout .text-content .content-title.valor {
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.pacotes .payments .grid-layout .text-content .button {
+  width: 100%;
+}
+
+.pacotes .payments .image.japao-01 {
+  background: url(../img/montagem-japao-01.jpg) no-repeat center;
+  background-size: 330px;
+}
+
+.pacotes .payments .image.japao-02 {
+  background: url(../img/montagem-japao-02.jpg) no-repeat center;
+  background-size: 330px;
+}
+
+.pacotes .payments .image.japao-03 {
+  background: url(../img/montagem-japao-03.jpg) no-repeat center;
+  background-size: cover;
+  background-position: bottom;
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .grid-layout {
     height: 606px;
@@ -54,6 +97,26 @@
   .payments .text-content h3 {
     margin-top: 0;
     padding: 0;
+  }
+
+  .pacotes .payments .grid-layout {
+    height: 718px;
+  }
+
+  .pacotes .payments .grid-layout .text-content .button {
+    display: none;
+  }
+
+  .pacotes .payments .image.japao-01 {
+    background-size: 100% 100%;
+  }
+
+  .pacotes .payments .image.japao-02 {
+    background-size: 100% 100%;
+  }
+
+  .pacotes .payments .image.japao-03 {
+    background-size: 100% 100%;
   }
 }
 
@@ -76,5 +139,12 @@
 
   .payments .image-gallery {
     grid-column: span 1;
+  }
+
+  .pacotes .payments .grid-layout {
+    height: 460px;
+  }
+  .pacotes .payments .grid-layout .text-content {
+    margin: 96px 0;
   }
 }
