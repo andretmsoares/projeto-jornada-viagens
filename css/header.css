@@ -52,7 +52,7 @@ nav {
   font-size: 24px;
 }
 
-.pacotes .main-header .navigation-menu .list-links .pacotes {
+.pacotes .main-header .navigation-menu .list-links .menu-pacotes {
   color: var(--text-secondary-color);
   text-decoration: underline;
 }
