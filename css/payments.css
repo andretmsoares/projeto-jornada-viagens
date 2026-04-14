@@ -100,7 +100,11 @@
   }
 
   .pacotes .payments .grid-layout {
-    height: 718px;
+    height: auto;
+  }
+
+  .pacotes .payments .grid-layout .image-gallery {
+    margin-top: 64px;
   }
 
   .pacotes .payments .grid-layout .text-content .button {
@@ -146,5 +150,9 @@
   }
   .pacotes .payments .grid-layout .text-content {
     margin: 96px 0;
+  }
+
+  .pacotes .payments .grid-layout .image-gallery {
+    margin-top: 0;
   }
 }

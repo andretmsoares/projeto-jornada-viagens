@@ -73,11 +73,11 @@ section.bottom-hero {
 }
 
 .pacotes .section-title h2 {
-  padding-top: 88px;
   margin: 0 auto;
   width: 290px;
   font-size: 32px;
 }
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);

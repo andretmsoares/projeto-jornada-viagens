@@ -28,7 +28,9 @@
   width: 100%;
 }
 
-
+.pacotes .destinations {
+  margin-top: 88px;
+}
 
 @media screen and (min-width: 768px) {
   .destinations {
