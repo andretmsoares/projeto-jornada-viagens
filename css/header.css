@@ -52,6 +52,11 @@ nav {
   font-size: 24px;
 }
 
+.pacotes .main-header .navigation-menu .list-links .pacotes {
+  color: var(--text-secondary-color);
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
