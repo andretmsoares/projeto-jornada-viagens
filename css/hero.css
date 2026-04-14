@@ -67,8 +67,12 @@
     justify-content: center;
   }
   .pacotes .hero .hero-content {
-    margin: 210px 70px 110px 120px;
+    margin-top: 210px;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-bottom: 110px;
     text-align: left;
+    width: 580px;
   }
   .pacotes .hero .hero-content p {
     font-size: 32px;
@@ -94,6 +98,13 @@
   .pacotes .hero .hero-content {
     margin: 160px 740px 160px 120px;
     text-align: left;
+  }
+
+  .pacotes .hero .hero-content {
+    margin-top: 160px;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-bottom: 160px;
   }
 }
 
