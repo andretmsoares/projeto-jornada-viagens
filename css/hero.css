@@ -61,6 +61,7 @@
   background: url(../img/blog-hero-mobile.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 88px;
 }
 
 .blog .hero .hero-content {
