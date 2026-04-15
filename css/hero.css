@@ -1,12 +1,11 @@
 .hero-img {
   height: 400px;
   width: 100%;
-  background-image: url(../img/hero-mobile.jpg);
+  background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.hero h2 {
+.hero-index h2 {
   padding: 88px 60px;
   margin: 0px;
   font-weight: var(--text-weight);
@@ -15,48 +14,53 @@
   line-height: 1.5;
 }
 
-.pacotes .hero {
-  background: url(../img/pacotes-hero.jpg);
+.hero {
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
   color: var(--text-secondary-color);
   display: flex;
   align-items: center;
 }
 
-.pacotes .hero .hero-content {
-  margin: 65px 24px;
+.hero-content {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
-.pacotes .hero .hero-content .section-title {
+.hero .section-title {
   margin: 0;
 }
 
-.pacotes .hero .hero-content .section-title .title-hero-pacotes {
+.hero .section-title hr {
+  margin: 16px 0 32px;
+}
+
+.title-hero {
   font-size: 48px;
   font-weight: var(--title-weight);
   line-height: 100%;
 }
 
-.pacotes .hero .hero-content .section-title hr {
-  margin: 16px 0 32px;
-}
-
-.pacotes .hero .hero-content p {
+.describe-hero {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
 }
 
+.pacotes .hero {
+  background: url(../img/pacotes-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.pacotes .hero .hero-content {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
-    width: 100%;
     background-image: url(../img/hero-tablet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .hero h2 {
@@ -66,28 +70,21 @@
   .pacotes .hero {
     justify-content: center;
   }
+
   .pacotes .hero .hero-content {
-    margin-top: 210px;
-    margin-left: 120px;
-    margin-right: auto;
-    margin-bottom: 110px;
-    text-align: left;
+    margin: 210px auto 110px 120px;
     width: 580px;
+    text-align: left;
   }
   .pacotes .hero .hero-content p {
     font-size: 32px;
-    font-weight: var(--text-weight);
-    line-height: 150%;
-    letter-spacing: 0%;
-    vertical-align: middle;
+    line-height: 1.5;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img {
     background-image: url(../img/hero-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .hero h2 {
     padding: 88px 120px;
@@ -96,15 +93,7 @@
 
 @media screen and (min-width: 1440px) {
   .pacotes .hero .hero-content {
-    margin: 160px 740px 160px 120px;
-    text-align: left;
-  }
-
-  .pacotes .hero .hero-content {
-    margin-top: 160px;
-    margin-left: 120px;
-    margin-right: auto;
-    margin-bottom: 160px;
+    margin: 160px auto 160px 120px;
   }
 }
 

@@ -48,8 +48,9 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero,
-section.bottom-hero {
+section.hero-index,
+sections.hero,
+section.bottom {
   width: 100%;
   margin: 0;
 }
