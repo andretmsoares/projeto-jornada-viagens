@@ -62,6 +62,11 @@ nav {
   text-decoration: underline;
 }
 
+.contato .main-header .navigation-menu .list-links .menu-contato {
+  color: var(--text-secondary-color); 
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;

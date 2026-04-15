@@ -73,5 +73,45 @@
         </p>
       </div>
     </section>
+    <section class="forms">
+        <div class="section-title">
+        <h1>Preencha o formulário:</h1>
+        <hr />
+      </div>
+      <div class="text-forms">
+        <p>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+      </div>
+      <form action="#" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="userName" required>
+            <br>
+            
+            <label for="age">Idade</label>
+            <input type="number" id="age" name="userAge" min="12" max="100" required>
+            <br>
+            
+            <label for="birthDate">Data de nasciemento</label>
+            <input type="date" id="birthDate" name="userBirthDate">
+            <br>
+                
+            <label for="email">Email</label>
+            <input type="email" id="email" name="userEmail" required>
+            <br>
+            
+            <label for="phoneNumber">Telefone</label>
+            <input type="tel" id="phoneNumber" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços" aria-describedby="phoneHelp">
+            <small id="phoneHelp">Preencha com 11 dígitos no formato DDD + número sem espaços ou hífen.</small>
+            <br>
+            
+            <label for="image">Upload de Foto</label>
+            <input type="file" id="image" accept="image/*" name="userImage" aria-describedby="imageHelp">
+            <small id="imageHelp">Envie uma foto no formato PNG ou JPEG</small>
+            <br>
+        </fieldset>
+
+    </section>
 </body>
 </html>

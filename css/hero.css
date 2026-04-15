@@ -79,6 +79,7 @@
   background: url(../img/contato-hero.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 88px;
 }
 
 .contato .hero-content .title-hero,
