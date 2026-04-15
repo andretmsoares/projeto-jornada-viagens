@@ -79,6 +79,22 @@ section.bottom-hero {
   font-size: 32px;
 }
 
+.blog h2 {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: var(--title-weight);
+}
+
+.blog p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+.blog .section-title h1 {
+  text-align: center;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);

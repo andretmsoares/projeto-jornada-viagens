@@ -72,6 +72,7 @@
 .blog .hero-content .title-hero,
 .blog .hero-content .describe-hero {
   margin-right: 60px;
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -124,7 +125,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .hero .hero-content, .blog .hero .hero-content {
+  .hero .hero-content,
+  .blog .hero .hero-content {
     margin: 160px auto 160px 120px;
   }
 
@@ -133,7 +135,6 @@
     background-size: cover;
     background-position: center;
   }
-
 }
 
 @media screen and (min-width: 1920px) {

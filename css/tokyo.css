@@ -1,6 +1,4 @@
-.tokyo .section-title h1 {
-  text-align: center;
-}
+
 
 .tokyo .tokyo-content {
   display: flex;
@@ -10,15 +8,9 @@
 
 .tokyo .tokyo-content .text-topic h2 {
   margin: 0 auto 24px;
-  font-size: 28px;
-  line-height: 1;
-  font-weight: var(--title-weight);
 }
 
 .tokyo .tokyo-content .text-topic p {
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: var(--text-weight);
   margin-bottom: 24px;
 }
 
