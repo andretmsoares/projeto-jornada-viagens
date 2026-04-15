@@ -57,28 +57,59 @@
   margin-bottom: 65px;
 }
 
+.blog .hero {
+  background: url(../img/blog-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .hero .hero-content {
+  margin-top: 81px;
+  margin-bottom: 81px;
+}
+
+.blog .hero-content .title-hero,
+.blog .hero-content .describe-hero {
+  margin-right: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background-image: url(../img/hero-tablet.jpg);
   }
 
-  .hero h2 {
+  .hero-index h2 {
     padding: 88px 24px;
   }
 
-  .pacotes .hero {
+  .hero {
     justify-content: center;
   }
 
-  .pacotes .hero .hero-content {
+  .hero .hero-content {
     margin: 210px auto 110px 120px;
     width: 580px;
     text-align: left;
   }
-  .pacotes .hero .hero-content p {
+
+  .hero .hero-content .describe-hero {
     font-size: 32px;
     line-height: 1.5;
+  }
+
+  .blog .hero {
+    background: url(../img/blog-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .blog .hero .hero-content {
+    margin: 158px 96px;
+  }
+
+  .blog .hero .hero-content .describe-hero {
+    margin-right: 110px;
   }
 }
 
@@ -86,19 +117,26 @@
   .hero-img {
     background-image: url(../img/hero-desktop.jpg);
   }
-  .hero h2 {
+  .hero-index h2 {
     padding: 88px 120px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .pacotes .hero .hero-content {
+  .hero .hero-content, .blog .hero .hero-content {
     margin: 160px auto 160px 120px;
   }
+
+  .blog .hero {
+    background: url(../img/blog-hero-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 }
 
 @media screen and (min-width: 1920px) {
-  .hero h2 {
+  .hero-index h2 {
     padding: 88px 160px;
   }
 }
