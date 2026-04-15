@@ -48,6 +48,7 @@ section {
   margin: 0 auto 88px;
 }
 
+section.hero-index,
 section.hero,
 section.bottom-hero {
   width: 100%;
@@ -76,6 +77,22 @@ section.bottom-hero {
   margin: 0 auto;
   width: 290px;
   font-size: 32px;
+}
+
+.blog h2 {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: var(--title-weight);
+}
+
+.blog p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+.blog .section-title h1 {
+  text-align: center;
 }
 
 .content-title {

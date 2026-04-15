@@ -1,0 +1,79 @@
+
+
+.tokyo .tokyo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tokyo .tokyo-content .text-topic h2 {
+  margin: 0 auto 24px;
+}
+
+.tokyo .tokyo-content .text-topic p {
+  margin-bottom: 24px;
+}
+
+.tokyo .tokyo-content .topic.arrival {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tokyo .tokyo-content .topic.arrival .text-topic h2 {
+  margin-top: 24px;
+}
+
+.tokyo .tokyo-content .topic.arrival .text-topic p {
+  margin-bottom: 0px;
+}
+
+.tokyo .tokyo-content .topic img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tokyo .tokyo-content .topic.arrival img {
+  height: 360px;
+}
+
+.tokyo .tokyo-content .topic.accommodation img {
+  height: 336px;
+}
+
+.tokyo .tokyo-content .topic.accommodation img-japao p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo .tokyo-content .topic.arrival {
+    flex-direction: row;
+  }
+
+  .tokyo .tokyo-content .topic.arrival .text-topic {
+    flex: 1;
+  }
+
+  .tokyo .tokyo-content .topic.arrival .text-topic h2 {
+    margin-top: 0px;
+  }
+
+  .tokyo .tokyo-content .topic.arrival img {
+    width: 312px;
+    flex: 1;
+  }
+
+  .tokyo .tokyo-content .topic.accommodation img {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tokyo .tokyo-content .topic.arrival img {
+    height: 360px;
+    width: 588px;
+  }
+}
