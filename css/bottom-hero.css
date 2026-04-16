@@ -9,6 +9,12 @@
 .pacotes .bottom-hero .rodape-img {
   background-image: url(../img/pacotes-bottom-hero-mobile.png);
 }
+
+.contato .bottom-hero .rodape-img {
+  background-image: url(../img/contato-bottom-hero-mobile.png);
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .bottom-hero .rodape-img {
     background-image: url(../img/rodape-desktop-tablet.png);
@@ -17,10 +23,22 @@
   .pacotes .bottom-hero .rodape-img {
     background-image: url(../img/pacotes-bottom-hero-desktop-tablet.png);
   }
+
+  .contato .bottom-hero .rodape-img {
+    background-image: url(../img/contato-bottom-hero-desktop-tablet.jpg);
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .bottom-hero .rodape-img {
     height: 600px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .bottom-hero .rodape-img,
+  .contato .bottom-hero .rodape-img {
+    height: 750px;
   }
 }
