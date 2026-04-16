@@ -1,4 +1,115 @@
 .forms .text-forms {
-    margin: 24px 0 56px;
-   
+  text-align: center;
+}
+
+.form-data {
+  border: none;
+  padding: 0;
+  margin-top: 56px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+  font-size: 20px;
+}
+
+.input-group.image {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px 4px;
+  font-size: 20px;
+  outline: none;
+  background: transparent;
+}
+
+.input-group.image .slot-image {
+  height: 50px;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+  display: block;
+  transition: 0.3s;
+}
+
+.input-group.image .slot-image:hover {
+  border-bottom: 2px solid #e53935;
+}
+
+.file-upload {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.file-upload:hover {
+  border-color: #e53935;
+  color: #e53935;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-bottom: 2px solid #e53935;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  resize: none;
+  height: 80px;
+}
+
+.forms footer {
+  margin-top: 32px;
+}
+
+.forms .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .forms .text-forms {font-size: 20px;
+}
+  .forms footer {
+    margin: 32px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .forms .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .forms .form-data {
+        width: 790px;
+        margin: 56px auto ;
+    }
+    .forms .contato-user {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .forms .contato-user .input-group {
+        width: 100%;
+    }
+    
 }

@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -20,8 +20,8 @@
     <link rel="icon" href="favico.png" type="xml/png" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Contato</title>
-</head>
-<body class="contato">
+  </head>
+  <body class="contato">
     <header class="main-header">
       <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
@@ -69,49 +69,63 @@
           <hr />
         </div>
         <p class="describe-hero">
-          Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!
+          Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+          plantão para ajudar você!
         </p>
       </div>
     </section>
     <section class="forms">
-        <div class="section-title">
+      <div class="section-title">
         <h1>Preencha o formulário:</h1>
         <hr />
       </div>
       <div class="text-forms">
-        <p>Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
       </div>
-      <form action="#" method="get">
-        <fieldset>
-            <legend>Dados Pessoais</legend>
+      <div>
+        <fieldset class="form-data">
+          <div class="input-group">
+          <input type="text" id="name" required placeholder="Seu nome"/>
+        </div>
 
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="userName" required>
-            <br>
-            
-            <label for="age">Idade</label>
-            <input type="number" id="age" name="userAge" min="12" max="100" required>
-            <br>
-            
-            <label for="birthDate">Data de nasciemento</label>
-            <input type="date" id="birthDate" name="userBirthDate">
-            <br>
-                
-            <label for="email">Email</label>
-            <input type="email" id="email" name="userEmail" required>
-            <br>
-            
-            <label for="phoneNumber">Telefone</label>
-            <input type="tel" id="phoneNumber" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços" aria-describedby="phoneHelp">
-            <small id="phoneHelp">Preencha com 11 dígitos no formato DDD + número sem espaços ou hífen.</small>
-            <br>
-            
-            <label for="image">Upload de Foto</label>
-            <input type="file" id="image" accept="image/*" name="userImage" aria-describedby="imageHelp">
-            <small id="imageHelp">Envie uma foto no formato PNG ou JPEG</small>
-            <br>
-        </fieldset>
+        <div class="contato-user">
+          <div class="input-group">
+            <input type="tel" id="phone" required placeholder="Telefone"/>
+          </div>
+          
+          <div class="input-group">
+            <input type="email" id="email" required placeholder="Email"/>
+          </div>
+        </div>
+          
+        <div class="input-group">
+          <input type="text" id="subject" placeholder="Assunto"/>
+        </div>
 
+        <div class="input-group image">
+          <label for="image">Imagem</label>
+
+          <input type="file" id="image" accept="image/*" hidden />
+          
+          <label class="slot-image" for="image" class="file-upload"></label>
+        </div>
+      </fieldset>
+      <footer>
+            <a
+              href="#"
+              class="button"
+              target="_blank"
+              title="Enviar""
+              >Enviar!</a
+            >
+          </footer>
+    </div>
     </section>
-</body>
-</html>
+  </body>
+  </html>
