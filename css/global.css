@@ -91,7 +91,7 @@ section.bottom-hero {
   font-weight: var(--text-weight);
 }
 
-.blog .section-title h1 {
+.blog .section-title h1, .contato .section-title h1 {
   text-align: center;
 }
 

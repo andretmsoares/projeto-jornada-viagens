@@ -34,6 +34,11 @@
   margin: 16px 0 32px;
 }
 
+.hero .hero-content {
+  margin-top: 81px;
+  margin-bottom: 81px;
+}
+
 .title-hero {
   font-size: 48px;
   font-weight: var(--title-weight);
@@ -64,13 +69,21 @@
   margin-bottom: 88px;
 }
 
-.blog .hero .hero-content {
-  margin-top: 81px;
-  margin-bottom: 81px;
-}
-
 .blog .hero-content .title-hero,
 .blog .hero-content .describe-hero {
+  margin-right: 60px;
+  text-align: left;
+}
+
+.contato .hero {
+  background: url(../img/contato-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 88px;
+}
+
+.contato .hero-content .title-hero,
+.contato .hero-content .describe-hero {
   margin-right: 60px;
   text-align: left;
 }
@@ -113,6 +126,16 @@
   .blog .hero .hero-content .describe-hero {
     margin-right: 110px;
   }
+
+  .contato .hero {
+    background: url(../img/contato-hero-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contato .hero .hero-content {
+    margin: 182px 96px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -128,6 +151,11 @@
   .hero .hero-content,
   .blog .hero .hero-content {
     margin: 160px auto 160px 120px;
+  }
+
+  
+  .contato .hero .hero-content{
+    margin: 210px auto 154px 120px
   }
 
   .blog .hero {
